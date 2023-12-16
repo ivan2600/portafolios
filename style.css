@@ -16,7 +16,7 @@
 }
 
 body {
-  width: 800px;
+  max-width: 800px;
   margin: 0 auto;
   background-color: var(--purpura-dark);
   color: var(--amarillo-light);
@@ -66,5 +66,33 @@ header {
   border: 2px solid #449991;
   color: var(--turquesa-dark);
   background-color: transparent;
+}
 
+.projects {
+  padding-top: 80px;
+  text-align: center;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.projects h1 {
+  color: var(--rojo-vintage);
+  margin-bottom: 30px;
+}
+
+.project-card {
+  border: 2px solid #8CBEB2;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.project-card-img img{
+  width: 330px;
+  padding: 20px 0 20px 0;
+}
+
+.project-card-info {
+  display: grid;
+  place-content: center;
+  text-align: start;
 }
