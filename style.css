@@ -192,9 +192,10 @@ header {
   max-width: 240px;
   flex-direction: column;
   margin-bottom: 100px;
+  justify-items: center;
 }
 
-.contact-card a {
+.contact-card a, .contact-card-mail {
   border: 2px solid #8CBEB2;
   color: var(--turquesa-light);
   background-color: transparent;
@@ -212,8 +213,10 @@ header {
   background-color: transparent;
 }
 
-.contact-card img {
-  height: 40px;
+.contact-card img, .contact-card-mail img {
+  width: 40px;
+  object-fit: cover;
+  margin: 0 auto;
 }
 
 @media (max-width: 775px) {
