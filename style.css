@@ -107,6 +107,7 @@ header {
   display: grid;
   /* place-content: center; */
   text-align: start;
+  padding-left: 15px;
 }
 
 .project-card-info h3 {
