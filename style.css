@@ -207,7 +207,7 @@ header {
   width: 100%;
 }
 
-.contact-card a:hover {
+.contact-card a:hover, .contact-card-mail:hover {
   border: 2px solid #449991;
   color: var(--turquesa-dark);
   background-color: transparent;
