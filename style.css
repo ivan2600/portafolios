@@ -232,6 +232,12 @@ header {
     margin: 0 auto;
   }
 
+  .profile-photo {
+    display: grid;
+    place-content: center;
+    margin: 20px;
+  }
+
   .about {
     display: grid;
     align-items: center;
