@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap');
 
 :root {
-  --purpura-dark: #573544;
+  --purpura-dark: #301923;
+  /* --purpura-dark: #573544; */
   --turquesa-light: #8CBEB2;
   --amarillo-light: #F2EBBF;
   --turquesa-dark: #449991;
@@ -140,3 +141,76 @@ header {
   background-color: transparent;
 }
 
+.skills {
+  margin-top: 50px;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+}
+
+.skills h1 {
+  color: var(--rojo-vintage);
+  margin-bottom: 30px;
+  font-size: 2em;
+}
+
+.skills img {
+  height: 100px;
+  border: 2px solid #8CBEB2;
+  padding: 10px;
+  margin: 0 10px;
+}
+
+.skills img:hover {
+  border: 2px solid #449991;
+}
+
+.contact {
+  margin-top: 50px;
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  max-width: 800px;
+}
+
+.contact h1 {
+  color: var(--rojo-vintage);
+  margin-bottom: 30px;
+  font-size: 2em;
+}
+
+.contact-card-container {
+  max-width: 800px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 40px;
+}
+
+.contact-card {
+  display: flex;
+  width: 240px;
+  flex-direction: column;
+  margin-bottom: 100px;
+}
+
+.contact-card a {
+  border: 2px solid #8CBEB2;
+  color: var(--turquesa-light);
+  background-color: transparent;
+  font-size: 1em;
+  text-decoration: none;
+  text-align: center;
+  font-weight: 500;
+  padding: 10px 20px;
+  width: 100%;
+}
+
+.contact-card a:hover {
+  border: 2px solid #449991;
+  color: var(--turquesa-dark);
+  background-color: transparent;
+}
+
+.contact-card img {
+  height: 40px;
+}
